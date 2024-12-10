@@ -1,0 +1,24 @@
+#signUpForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpItems {
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    row-gap: 3px;
+}
+
+.errors {
+    color: #495057;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #343a40;
+    background-color: #e9ecef;
+    color: #212529;
+}
+

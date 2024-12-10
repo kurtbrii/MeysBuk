@@ -1,0 +1,18 @@
+.a-images {
+  border: solid;
+  margin: 5px 0px;
+  height: 100px;
+  width: auto;
+  border-radius: 15px;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adsContainer {
+  display: flex;
+  flex-direction: column;
+}

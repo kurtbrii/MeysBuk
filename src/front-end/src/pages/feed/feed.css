@@ -1,0 +1,58 @@
+.overallContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.feedContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #adb5bd;
+  margin: 5px;
+  padding: 15px 15px;
+  border-radius: 15px;
+  
+}
+
+.newContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.middle, .lsidebar, .rsidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #adb5bd;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+#logoutButton {
+  border-radius: 10px;
+  background-color: #343a40;
+  color: #e9ecef;
+  /* color: #212529; */
+  padding: 10px;
+  font-weight: bold;
+}
+
+#postNowButton {
+  background-color: #343a40;
+  color: #e9ecef;
+  border-radius: 10px;
+  border-color: #343a40;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#logoutButton:hover, #postNowButton:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+#boldName {
+  font-weight: bold;
+}

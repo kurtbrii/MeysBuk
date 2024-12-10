@@ -1,0 +1,11 @@
+.App {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #212529;
+}
+
+.appInner {
+  background-color: #495057;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}

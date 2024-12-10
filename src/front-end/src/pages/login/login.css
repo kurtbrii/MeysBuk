@@ -1,0 +1,64 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #adb5bd;
+  margin: 100px 250px;
+  padding: 50px 50px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginWord {
+  color: #343a40;
+}
+
+#fbLogin {
+  font-size: xx-large;
+}
+
+input, #loginButton, #signUpButton {
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #343a40;
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+::placeholder {
+  color: #6c757d;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#myForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#loginButton {
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-weight: bold;
+}
+
+#loginButton:hover {
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+#signUpButton {
+  background-color: #212529;
+  color: #e9ecef;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#signUpButton:hover {
+  background-color: #343a40;
+  color: #e9ecef;
+}
+
+#signUpButton, #loginButton {
+  font-weight: bold;
+}
+

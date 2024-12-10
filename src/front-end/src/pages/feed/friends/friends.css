@@ -1,0 +1,54 @@
+#fullNameRequest {
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.smallerFontRequest {
+  font-size: small;
+  color: #343a40;
+  margin-bottom: 7px;
+}
+
+.friendsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.friendContentContainer {
+  display: flex;
+  flex-direction: column;
+  
+  margin-bottom: 10px;
+  background-color: #CED4DA;
+  padding: 15px;
+  border-radius: 15px;
+  border: solid #6c757d;
+}
+
+.friendContentButton {
+  display: flex;
+  column-gap: 3px;
+}
+
+.friendContentButton button:nth-child(1) {
+  border-radius: 5px;
+  border-color: #343a40;
+  background-color: #343a40;
+  color: #e9ecef;
+  padding: 5px;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+.friendContentButton button:nth-child(2) {
+  border-radius: 5px;
+  border-color: #343a40;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 5px;
+  font-size: x-small;
+  font-weight: bold;
+}

@@ -1,0 +1,38 @@
+.navBarContainer, .content, footer {
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+.navBarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.left-button, .mid-button, .right-button {
+  margin: 0px 5px;
+}
+
+
+.mid-button {
+  margin: 0px 20px;
+}
+
+.fnav, .snav, .tnav {
+  display: flex;
+  padding: 0px 5px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.search-bar {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  border: solid #212529;
+}
+
+#enterHover:hover {
+  width: 32px;
+  height: 32px;
+}

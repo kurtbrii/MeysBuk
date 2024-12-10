@@ -1,0 +1,13 @@
+#postForm {
+  background-color: #CED4DA;
+  padding: 15px;
+  border-radius: 15px;
+  border: solid #6c757d;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  border: solid #212529;
+}

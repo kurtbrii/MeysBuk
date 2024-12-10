@@ -1,0 +1,45 @@
+.userPosts {
+  flex-direction: column;
+  background-color: #CED4DA;
+  margin: 10px 30px;
+  padding: 15px;
+  border-radius: 15px;
+  border: solid #6c757d;
+}
+
+#postWord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#deletePostButton, #editPostButton, #saveChangesButton {
+  border-radius: 10px;
+  border-color: #343a40;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 10px;
+  font-size: xx-small;
+  font-weight: bold;
+}
+
+#deletePostButton:hover, #editPostButton:hover, #saveChangesButton:hover {
+  background-color: #343a40;
+  color: #e9ecef;
+}
+
+#deletePostButton {
+  margin-left: 5px;
+}
+
+.smallerFontPost {
+  font-size: 12px;
+  color: #343a40;
+}
+
+#firstNamePost {
+  margin-bottom: 7px;
+  font-size: larger;
+  font-weight: bolder;
+}
+

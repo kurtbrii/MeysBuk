@@ -1,0 +1,48 @@
+.filteredUsers {
+  margin: 20px;
+  background-color: #CED4DA;
+  padding: 20px;
+  border-radius: 15px;
+  border: solid #6c757d;
+}
+
+.searchUserContainer {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#searchedResults {
+  margin: 20px;
+}
+
+#cancelFriendRequest, #alreadyFriends {
+  border-radius: 10px;
+  border-color: #343a40;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 10px;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+/* #cancelFriendRequest:hover {
+  background-color: #343a40;
+  color: #e9ecef;
+} */
+
+#addFriendButton {
+  border-radius: 10px;
+  border-color: #343a40;
+  background-color: #343a40;
+  color: #e9ecef;
+  padding: 10px;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+/* #addFriendButton:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+} */
